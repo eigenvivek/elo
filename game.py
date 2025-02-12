@@ -56,8 +56,8 @@ def display_images(img1_path, img2_path):
     close_all_images()
 
     # Open and display images side by side
-    img1 = Image.open(os.path.join("images", img1_path))
-    img2 = Image.open(os.path.join("images", img2_path))
+    img1 = Image.open(os.path.join("slices", img1_path))
+    img2 = Image.open(os.path.join("slices", img2_path))
 
     # Create a new image with combined width plus padding
     padding = 20  # pixels of whitespace between images
