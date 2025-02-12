@@ -104,7 +104,7 @@ def get_user_response():
             return False
         else:
             print(
-                "Invalid key! Please use arrow keys: ← (left: 1>2) → (right: 2>1) ↓ (down: both good) ↑ (up: both bad)"
+                "Invalid key! Please use arrow keys: ← (left: 1>2) → (right: 2>1) ↓ (down: both bad) ↑ (up: both good)"
             )
             return True  # Keep listening for valid input
 
