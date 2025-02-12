@@ -1,3 +1,4 @@
 PIL
 pynput
 pandas
+matplotlib
